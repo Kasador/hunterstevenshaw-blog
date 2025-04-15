@@ -1,3 +1,14 @@
+# 🗂 Overview to Blog Web App
+
+**🌐 [https://github.com/Kasador/hunterstevenshaw-blog.git](https://github.com/Kasador/hunterstevenshaw-blog.git)**
+
+### 🔗🚧 **Development Server**: [https://hunterstevenshaw-blog.vercel.app/](https://hunterstevenshaw-blog.vercel.app/)
+
+## 🖥️ The Weather App
+
+Repository made to create/develop a small weather app. Using the **_OpenWeatherMap API_**, I will develop a the weather app using the MERN tech stack connecting the data to my API and then from there, storing the data into MongoDB. This app is built using _**npm create vite@latest**_ for the frontend. The new tech stack is designed for simplicity, performance, and ease of content management for future development and maintenance.
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
