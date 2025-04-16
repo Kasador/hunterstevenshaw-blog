@@ -1,5 +1,5 @@
-// import Image from "next/image";
 import Link from 'next/link'
+import { Button } from "@/components/ui/button"
 // import { Button } from "@/components/ui/button"
 import {
   NavigationMenu,
@@ -12,9 +12,11 @@ import {
   // NavigationMenuViewport,
 } from "@/components/ui/navigation-menu"
 
-export default function Home() {
-  return (
-    <div className="flex mx-2 justify-between">
+
+export default function HTML() {
+    return (
+        <div>
+             <div className="flex mx-2 justify-between">
       <Link href="/">
       <h1 className="font-[family-name:var(--font-dynapuff)] font-extrabold text-4xl p-2">Logbook.io</h1>
       </Link>
@@ -54,5 +56,10 @@ export default function Home() {
       </NavigationMenuList>
     </NavigationMenu>
     </div>
-  );
+            <h1 className="font-[family-name:var(--font-dynapuff)] font-extrabold text-4xl p-2">HTML</h1>
+            <Button className='text-2xl m-5 p-5'>
+                <Link href="/">Home</Link>
+            </Button>
+        </div>
+    )
 }
