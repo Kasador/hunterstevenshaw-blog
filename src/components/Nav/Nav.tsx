@@ -1,5 +1,6 @@
-// import Image from "next/image";
+import Image from "next/image";
 import Link from 'next/link'
+// https://nextjs.org/docs/pages/api-reference/components/image
 // import { Button } from "@/components/ui/button"
 import {
   NavigationMenu,
@@ -23,15 +24,28 @@ export default function Nav() {
                 <NavigationMenuList>
                     <NavigationMenuItem>
                     <Link href="/html">
-                    <NavigationMenuTrigger>HTML</NavigationMenuTrigger>
+                    <NavigationMenuTrigger>Learn</NavigationMenuTrigger>
                     </Link>
-                    <NavigationMenuContent>
-                        <NavigationMenuLink className="w-75">Forms</NavigationMenuLink>
+                    <NavigationMenuContent className="flex justify-center text-left p-5">
+                        <Image 
+                        src="/html-css-js_v3.png"
+                        alt="HTML, CSS, and JavaScript graphic"
+                        width={100}
+                        height={100}
+                        className="p-5"/>
+                        <ul className="w-75">
+                            <li><NavigationMenuLink className="w-35 text-2xl">HTML</NavigationMenuLink>
+                                <span className="text-md w-50">Learn all about HTML and test...</span></li>
+                            <li><NavigationMenuLink className="w-35 text-2xl">CSS</NavigationMenuLink>
+                                <span className="text-md w-50">Learn all about HTML and test...</span></li>
+                            <li><NavigationMenuLink className="w-35 text-2xl">JavaScript</NavigationMenuLink>
+                                <span className="text-md w-50">Learn all about HTML and test...</span></li>
+                        </ul>
                     </NavigationMenuContent>
                     </NavigationMenuItem>
                     <NavigationMenuItem>
                     <Link href="/css">
-                    <NavigationMenuTrigger>CSS</NavigationMenuTrigger>
+                    <NavigationMenuTrigger>Overview</NavigationMenuTrigger>
                     </Link>
                     <NavigationMenuContent>
                         <NavigationMenuLink className="w-75">SASS/SCSS</NavigationMenuLink>
@@ -40,7 +54,7 @@ export default function Nav() {
                     </NavigationMenuItem>
                     <NavigationMenuItem>
                         <Link href="/javascript">
-                    <NavigationMenuTrigger>JavaScript</NavigationMenuTrigger>
+                    <NavigationMenuTrigger>Github</NavigationMenuTrigger>
                         </Link>
                     <NavigationMenuContent>
                         <NavigationMenuLink className="w-75">ReactJS</NavigationMenuLink>
