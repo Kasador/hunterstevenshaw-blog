@@ -20,7 +20,7 @@ export default function Nav() {
                 <Link href="/">
                 <h1 className="font-[family-name:var(--font-dynapuff)] font-extrabold text-4xl p-2">Logbook.io</h1>
                 </Link>
-                <NavigationMenu>
+                <NavigationMenu className="flex justify-between items-center p-4 gap-4 h-16">
                 <NavigationMenuList>
                     <NavigationMenuItem>
                     <Link href="/html">

@@ -2,6 +2,6 @@ import Nav from "@/components/Nav/Nav"
 
 export default function Home() {
   return (
-    <Nav />
+      <h1>home</h1>
   );
 }

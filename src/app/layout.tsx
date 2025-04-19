@@ -10,6 +10,8 @@ import {
 import { Geist, Geist_Mono, DynaPuff } from 'next/font/google'
 import './globals.css'
 
+import Nav from "@/components/Nav/Nav"
+
 const geistSans = Geist({
   variable: '--font-geist-sans',
   subsets: ['latin'],
@@ -39,14 +41,17 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body className={`${fontDynaPuff} ${geistSans.variable} ${geistMono.variable} antialiased`}>
-          <header className="flex justify-end items-center p-4 gap-4 h-16">
-            <SignedOut>
-              <SignInButton />
-              <SignUpButton />
-            </SignedOut>
-            <SignedIn>
-              <UserButton />
-            </SignedIn>
+          <header className="flex justify-between items-center p-4 gap-4 h-16">
+          <Nav />
+            <div className="flex justify-end items-center p-4 gap-4 h-16">
+              <SignedOut>
+                <SignInButton />
+                <SignUpButton />
+              </SignedOut>
+              <SignedIn>
+                <UserButton />
+              </SignedIn>
+            </div>
           </header>
           {children}
         </body>
