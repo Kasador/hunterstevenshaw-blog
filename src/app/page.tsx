@@ -4,6 +4,8 @@ import {
   SignedOut
 } from '@clerk/nextjs'
 
+// https://clerk.com/docs/quickstarts/nextjs-pages-router
+
 export default function Home() {
 
   return (
