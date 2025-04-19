@@ -5,9 +5,9 @@
 
 :root {
   --background: #f2f3fc;
-  --foreground: #5159d2;
-  --accent: #a6b0ea;
-  --white: #e6eaf9;
+  --foreground: #6b44a3;
+  --accent: #a6a1d6; 
+  --white: #f9f9f9;
 
   --radius: 0.625rem;
 
@@ -42,17 +42,18 @@
   --sidebar-border: #e5e7eb;
   --sidebar-ring: #d1d5db;
 
-  --blue-violet-50: #f2f3fc;
-  --blue-violet-100: #e1e4f8;
-  --blue-violet-200: #cacff3;
-  --blue-violet-300: #a6b0ea;
-  --blue-violet-400: #7b88df;
-  --blue-violet-500: #5159d2;
-  --blue-violet-600: #4948c8;
-  --blue-violet-700: #443eb7;
-  --blue-violet-800: #403895;
-  --blue-violet-900: #353177;
-  --blue-violet-950: #252249;
+  /* Purple shades palette based on the image */
+  --purple-50: #f2f3fc;
+  --purple-100: #e1e4f8;
+  --purple-200: #cacff3;
+  --purple-300: #a6b0ea;
+  --purple-400: #7b88df;
+  --purple-500: #5159d2;
+  --purple-600: #4948c8;
+  --purple-700: #443eb7;
+  --purple-800: #403895;
+  --purple-900: #353177;
+  --purple-950: #252249;
 }
 
 @theme inline {
@@ -101,17 +102,17 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #f2f3fc;
-    --foreground: #5159d2;
-    --accent: #a6b0ea;
-    --white: #e6eaf9;
+    --foreground: #6b44a3;
+    --accent: #a6a1d6;
+    --white: #f9f9f9;
   }
 }
 
 .dark {
   --background: #f2f3fc;
-  --foreground: #5159d2;
-  --accent: #a6b0ea;
-  --white: #e6eaf9;
+  --foreground: #6b44a3;
+  --accent: #a6a1d6;
+  --white: #f9f9f9;
 
   --card: #2a2a2a;
   --card-foreground: #fafafa;
@@ -139,7 +140,7 @@
   --sidebar-foreground: #fafafa;
   --sidebar-primary: #f2f3fc;
   --sidebar-primary-foreground: #2a2a2a;
-  --sidebar-accent: #a6b0ea;
+  --sidebar-accent: #a6a1d6;
   --sidebar-accent-foreground: #2a2a2a;
   --sidebar-border: rgba(255, 255, 255, 0.1);
   --sidebar-ring: #888888;
