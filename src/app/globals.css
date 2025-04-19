@@ -4,10 +4,10 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: #AB9B96;
-  --foreground: #584B53;
-  --accent: #9D5C63;
-  --white: #ffffff;
+  --background: #f2f3fc;
+  --foreground: #5159d2;
+  --accent: #a6b0ea;
+  --white: #e6eaf9;
 
   --radius: 0.625rem;
 
@@ -41,6 +41,18 @@
   --sidebar-accent-foreground: var(--foreground);
   --sidebar-border: #e5e7eb;
   --sidebar-ring: #d1d5db;
+
+  --blue-violet-50: #f2f3fc;
+  --blue-violet-100: #e1e4f8;
+  --blue-violet-200: #cacff3;
+  --blue-violet-300: #a6b0ea;
+  --blue-violet-400: #7b88df;
+  --blue-violet-500: #5159d2;
+  --blue-violet-600: #4948c8;
+  --blue-violet-700: #443eb7;
+  --blue-violet-800: #403895;
+  --blue-violet-900: #353177;
+  --blue-violet-950: #252249;
 }
 
 @theme inline {
@@ -88,30 +100,30 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #AB9B96;
-    --foreground: #584B53;
-    --accent: #A1674A;
-    --white: #F0E7D8;
+    --background: #f2f3fc;
+    --foreground: #5159d2;
+    --accent: #a6b0ea;
+    --white: #e6eaf9;
   }
 }
 
 .dark {
-  --background: #AB9B96;
-  --foreground: #584B53;
-  --accent: #A1674A;
-  --white: #F0E7D8;
+  --background: #f2f3fc;
+  --foreground: #5159d2;
+  --accent: #a6b0ea;
+  --white: #e6eaf9;
 
   --card: #2a2a2a;
   --card-foreground: #fafafa;
   --popover: #2a2a2a;
   --popover-foreground: #fafafa;
-  --primary: #F0E7D8;
+  --primary: #f2f3fc;
   --primary-foreground: #2a2a2a;
-  --secondary: #9D5C63;
+  --secondary: #7b88df;
   --secondary-foreground: #2a2a2a;
   --muted: #444444;
   --muted-foreground: #cccccc;
-  --accent-foreground: #F0E7D8;
+  --accent-foreground: #f2f3fc;
   --destructive: #f87171;
   --border: rgba(255, 255, 255, 0.1);
   --input: rgba(255, 255, 255, 0.15);
@@ -125,9 +137,9 @@
 
   --sidebar: #2a2a2a;
   --sidebar-foreground: #fafafa;
-  --sidebar-primary: #F0E7D8;
+  --sidebar-primary: #f2f3fc;
   --sidebar-primary-foreground: #2a2a2a;
-  --sidebar-accent: #9D5C63;
+  --sidebar-accent: #a6b0ea;
   --sidebar-accent-foreground: #2a2a2a;
   --sidebar-border: rgba(255, 255, 255, 0.1);
   --sidebar-ring: #888888;

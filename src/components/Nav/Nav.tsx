@@ -28,7 +28,7 @@ export default function Nav() {
                     </Link>
                     <NavigationMenuContent className="flex justify-center text-left p-5">
                         <Image 
-                        src="/html-css-js_v6.png"
+                        src="/html-css-js_v7.png"
                         alt="HTML, CSS, and JavaScript graphic"
                         width={140}
                         height={100}
