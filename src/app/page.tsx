@@ -1,7 +1,7 @@
 import {
   ClerkProvider,
   SignedIn,
-  SignedOut
+  SignedOut,
 } from '@clerk/nextjs'
 
 // https://clerk.com/docs/quickstarts/nextjs-pages-router
