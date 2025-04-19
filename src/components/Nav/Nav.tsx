@@ -61,13 +61,13 @@ export default function Nav() {
                         <NavigationMenuLink className="w-75">NextJS</NavigationMenuLink>
                     </NavigationMenuContent>
                     </NavigationMenuItem>
-                    <NavigationMenuItem>
+                    {/* <NavigationMenuItem>
                     <Link href="/login">
                     <NavigationMenuLink className="w-25 text-center text-1xl font-extrabold">
                         Login
                     </NavigationMenuLink>
                     </Link>
-                    </NavigationMenuItem>
+                    </NavigationMenuItem> */}
                 </NavigationMenuList>
                 </NavigationMenu>
             </div>
