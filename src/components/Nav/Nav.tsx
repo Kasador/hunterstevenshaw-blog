@@ -45,7 +45,7 @@ export default function Nav() {
                     </NavigationMenuItem>
                     <NavigationMenuItem>
                     <Link href="/css">
-                    <NavigationMenuTrigger>Overview</NavigationMenuTrigger>
+                    <NavigationMenuTrigger>Dev Tools</NavigationMenuTrigger>
                     </Link>
                     <NavigationMenuContent>
                         <NavigationMenuLink className="w-75">SASS/SCSS</NavigationMenuLink>
