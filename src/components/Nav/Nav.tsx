@@ -28,18 +28,18 @@ export default function Nav() {
                     </Link>
                     <NavigationMenuContent className="flex justify-center text-left p-5">
                         <Image 
-                        src="/html-css-js_v3.png"
+                        src="/html-css-js_v6.png"
                         alt="HTML, CSS, and JavaScript graphic"
-                        width={100}
+                        width={140}
                         height={100}
                         className="p-5"/>
                         <ul className="w-75">
-                            <li><NavigationMenuLink className="w-35 text-2xl">HTML</NavigationMenuLink>
-                                <span className="text-md w-50">Learn all about HTML and test...</span></li>
-                            <li><NavigationMenuLink className="w-35 text-2xl">CSS</NavigationMenuLink>
-                                <span className="text-md w-50">Learn all about HTML and test...</span></li>
-                            <li><NavigationMenuLink className="w-35 text-2xl">JavaScript</NavigationMenuLink>
-                                <span className="text-md w-50">Learn all about HTML and test...</span></li>
+                            <li><NavigationMenuLink className="w-30 text-lg text-center font-extrabold font-[family-name:var(--font-dynapuff)]">HTML</NavigationMenuLink>
+                                <span className="text-sm w-60">HTML is the standard markup language used to create web pages.</span></li>
+                            <li><NavigationMenuLink className="w-30 text-lg text-center font-extrabold font-[family-name:var(--font-dynapuff)]">CSS</NavigationMenuLink>
+                                <span className="text-sm w-60">CSS is a stylesheet language used to define the visual appearance of a webpage.</span></li>
+                            <li><NavigationMenuLink className="w-30 text-lg text-center font-extrabold font-[family-name:var(--font-dynapuff)]">JavaScript</NavigationMenuLink>
+                                <span className="text-sm w-60">JavaScript is a programming language used to add interactivity and dynamic behavior to a webpage.</span></li>
                         </ul>
                     </NavigationMenuContent>
                     </NavigationMenuItem>
