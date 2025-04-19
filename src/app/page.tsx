@@ -1,5 +1,4 @@
 import {
-  ClerkProvider,
   SignedIn,
   SignedOut,
 } from '@clerk/nextjs'
@@ -21,7 +20,6 @@ export default async function Home() {
   const user = await currentUser();
 
   return (
-      <ClerkProvider>
         <div>
           <SignedIn>
             <h1>Welcome back {user?.firstName}, you&apos;re signed-in.</h1>
@@ -30,6 +28,5 @@ export default async function Home() {
             <h1>Oh no, you&apos;re not signed-in. Sign up or sign in to see user data.</h1>
           </SignedOut>
         </div>
-      </ClerkProvider>
   );
 }
