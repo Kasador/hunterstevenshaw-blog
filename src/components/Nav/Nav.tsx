@@ -23,7 +23,7 @@ export default function Nav() {
                 <NavigationMenu className="flex justify-between items-center p-4 gap-4 h-16">
                 <NavigationMenuList>
                     <NavigationMenuItem>
-                    <Link href="/html">
+                    <Link href="/learn">
                     <NavigationMenuTrigger>Learn</NavigationMenuTrigger>
                     </Link>
                     <NavigationMenuContent className="flex justify-center text-left p-5">
@@ -44,21 +44,21 @@ export default function Nav() {
                     </NavigationMenuContent>
                     </NavigationMenuItem>
                     <NavigationMenuItem>
-                    <Link href="/css">
+                    <Link href="/dev-tools">
                     <NavigationMenuTrigger>Dev Tools</NavigationMenuTrigger>
                     </Link>
                     <NavigationMenuContent>
-                        <NavigationMenuLink className="w-75">SASS/SCSS</NavigationMenuLink>
+                        <NavigationMenuLink className="w-75">Vercel</NavigationMenuLink>
                         <NavigationMenuLink className="w-75">TailwindCSS</NavigationMenuLink>
                     </NavigationMenuContent>
                     </NavigationMenuItem>
                     <NavigationMenuItem>
-                        <Link href="/javascript">
+                        <Link href="/github">
                     <NavigationMenuTrigger>Github</NavigationMenuTrigger>
                         </Link>
                     <NavigationMenuContent>
-                        <NavigationMenuLink className="w-75">ReactJS</NavigationMenuLink>
-                        <NavigationMenuLink className="w-75">NextJS</NavigationMenuLink>
+                        <NavigationMenuLink className="w-75">hunterstevenshaw-com</NavigationMenuLink>
+                        <NavigationMenuLink className="w-75">hunterstevenshaw-blog</NavigationMenuLink>
                     </NavigationMenuContent>
                     </NavigationMenuItem>
                     {/* <NavigationMenuItem>

@@ -7,7 +7,10 @@ import {
   SignedOut,
   UserButton,
 } from '@clerk/nextjs'
+import { Button } from "@/components/ui/button"
+import Link from 'next/link'
 import { Geist, Geist_Mono, DynaPuff } from 'next/font/google'
+import { currentUser } from '@clerk/nextjs/server';
 import './globals.css'
 
 import Nav from "@/components/Nav/Nav"
@@ -32,11 +35,13 @@ export const metadata: Metadata = {
   description: 'Blog website for hunterstevenshaw.com',
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode
 }>) {
+
+  const user = await currentUser();
   return (
     <ClerkProvider>
       <html lang="en">
@@ -49,6 +54,10 @@ export default function RootLayout({
                 <SignUpButton />
               </SignedOut>
               <SignedIn>
+                <Button className='text-sm m-2 p-4'>
+                  <Link href="/dashboard">Dashboard</Link>
+                </Button>
+                <span>{user?.fullName}</span>
                 <UserButton />
               </SignedIn>
             </div>
